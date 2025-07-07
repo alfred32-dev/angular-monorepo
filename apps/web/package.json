@@ -1,0 +1,10 @@
+{
+  "name": "web",
+  "private": true,
+  "scripts": {
+    "build": "ng build web",
+    "dev": "ng serve web",
+    "lint": "ng lint web",
+    "test": "ng test web"
+  }
+}

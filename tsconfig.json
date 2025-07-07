@@ -13,7 +13,13 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ES2022",
-    "module": "preserve"
+    "module": "preserve",
+    "baseUrl": ".",
+
+    "paths": {
+      "@utils": ["packages/utils/src/public-api"],
+      "@ui": ["packages/ui/src/public-api"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
@@ -22,5 +28,25 @@
     "typeCheckHostBindings": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/web/tsconfig.app.json"
+    },
+    {
+      "path": "./apps/web/tsconfig.spec.json"
+    },
+    {
+      "path": "./packages/ui/tsconfig.lib.json"
+    },
+    {
+      "path": "./packages/ui/tsconfig.spec.json"
+    },
+    {
+      "path": "./packages/utils/tsconfig.lib.json"
+    },
+    {
+      "path": "./packages/utils/tsconfig.spec.json"
+    }
+  ]
 }
