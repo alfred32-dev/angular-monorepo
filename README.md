@@ -1,5 +1,5 @@
 
-```markdown
+
 # Angular Monorepo with PNPM and Turborepo
 
 This is a **dummy Angular monorepo setup** using [PNPM](https://pnpm.io), [Turborepo](https://turbo.build), and the Angular CLI. The purpose of this project is to test **injecting internal/shared packages** into Angular apps cleanly and efficiently.
@@ -68,7 +68,7 @@ console.log(capitalize('hello')); // → Hello
 ---
 
 
-```
+
 
 ---
 
@@ -81,8 +81,4 @@ The aim is to test and validate:
 * Building isolated apps with dependencies
 * Monorepo practices using PNPM + Turborepo
 
----
 
-
-
-```
